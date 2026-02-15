@@ -28,6 +28,7 @@ Thumbs.db
 *.log
 *.csv
 *.json
+*.logfmt
 
 # Temporary files
 *.tmp

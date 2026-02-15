@@ -1,6 +1,6 @@
 [package]
 name = "pandoraslogs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "High-performance SIMD log parser achieving 3.2-4.0+ GB/s throughput"
 license = "GPL-2.0"
