@@ -1,4 +1,10 @@
+pub mod csv_parser;
 pub mod data;
+pub mod format;
+pub mod json_parser;
+pub mod logfmt_parser;
 pub mod orchestrator;
 pub mod parser;
 pub mod simd_scan;
+pub mod structured;
+pub mod structured_orchestrator;

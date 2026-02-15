@@ -10,13 +10,17 @@ repository = "https://github.com/Lunyn-HFT/pandora"
 name = "pandoras-logs"
 path = "src/main.rs"
 
-[[bin]]
-name = "generate-logs"
-path = "src/bin/generate_logs.rs"
+# [[bin]]
+# name = "generate-logs"
+# path = "src/bin/generate_logs.rs"
 
 [[bin]]
 name = "scan-newlines"
 path = "src/bin/scan_newlines.rs"
+
+[[bin]]
+name = "generate-structured-logs"
+path = "src/bin/generate_structured_logs.rs"
 
 [dependencies]
 memmap2 = "0.9"
