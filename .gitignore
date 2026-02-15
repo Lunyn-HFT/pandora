@@ -1,0 +1,39 @@
+# Rust build artifacts
+target/
+
+# Cargo.lock (optional, but often ignored for libraries)
+# Uncomment if you want to ignore it
+# Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test output
+test_output/
+pandora_*.log
+
+# Benchmark data
+bench_results.json
